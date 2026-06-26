@@ -13,6 +13,10 @@
 
 🔗 **[Download on WordPress.org](https://wordpress.org/plugins/dicestack/)** &nbsp;•&nbsp; 🌐 **[Plugin Home](https://dicecodes.com/dicestack-wordpress-plugin/)** &nbsp;•&nbsp; 📖 **[Documentation](https://dicecodes.com/dicestack/docs/)**
 
+<p align="center">
+  <img src=".wordpress-org/github-social.png" alt="DiceStack — the free all-in-one WordPress plugin with 185 modular tools for security, performance, SEO, WooCommerce, caching and backups" width="100%">
+</p>
+
 ---
 
 ## Why DiceStack?
