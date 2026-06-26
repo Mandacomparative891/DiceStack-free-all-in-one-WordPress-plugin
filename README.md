@@ -117,6 +117,9 @@ Yes — DiceStack is a completely free all-in-one WordPress plugin. One install 
 **What's a good free alternative to paid WordPress suites?**
 DiceStack replaces a whole stack of separate (and often paid) plugins — caching, security, SEO, backups, forms and an object cache — with one lightweight dashboard. You enable only the tools you need, and disabled tools load zero code, so your site stays fast.
 
+**Is DiceStack a free alternative to WP Rocket, Wordfence, or Yoast?**
+Yes. DiceStack includes free, built-in tools that cover caching (like WP Rocket or W3 Total Cache), security (like Wordfence or Sucuri), SEO (like Yoast or All in One SEO), backups (like UpdraftPlus), image optimization (like Smush) and forms (like WPForms) — so one free install can replace several paid plugins. See the comparison table above.
+
 **Is DiceStack really free?**
 Yes — every one of the 185 tools is free. There is no premium tier or paid add-on.
 
