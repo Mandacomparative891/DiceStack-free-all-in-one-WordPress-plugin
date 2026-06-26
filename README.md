@@ -67,7 +67,7 @@ Most WordPress sites run a dozen plugins — one for caching, one for security, 
 4. Open the **DiceStack** dashboard and enable the tools you want.
 
 ### Manual install
-1. Download the latest `dicestack.zip` from the [Releases](https://github.com/IamRamgarhia/dicestack-/releases) page or from [WordPress.org](https://wordpress.org/plugins/dicestack/).
+1. Download the latest `dicestack.zip` from the [Releases](https://github.com/IamRamgarhia/DiceStack-free-all-in-one-WordPress-plugin/releases) page or from [WordPress.org](https://wordpress.org/plugins/dicestack/).
 2. In wp-admin go to **Plugins → Add New → Upload Plugin** and choose the zip.
 3. **Activate**, then open the **DiceStack** dashboard.
 
@@ -112,7 +112,7 @@ Nothing changes — enabled tools stay enabled, disabled stay disabled, and all 
 
 ## Contributing
 
-Issues and pull requests are welcome. Please open an [issue](https://github.com/IamRamgarhia/dicestack-/issues) for bugs or feature requests. The canonical release channel for end users is **[WordPress.org](https://wordpress.org/plugins/dicestack/)**.
+Issues and pull requests are welcome. Please open an [issue](https://github.com/IamRamgarhia/DiceStack-free-all-in-one-WordPress-plugin/issues) for bugs or feature requests. The canonical release channel for end users is **[WordPress.org](https://wordpress.org/plugins/dicestack/)**.
 
 ## License
 
