@@ -25,6 +25,13 @@ final class Module_Registry {
 	private $instances = array();
 
 	/**
+	 * Cached id => class map filtered to files present in this build.
+	 *
+	 * @var array<string, class-string>|null
+	 */
+	private $resolved_classes = null;
+
+	/**
 	 * Category definitions: slug => label, Tabler icon, colour key.
 	 *
 	 * @return array<string, array{label:string,icon:string,color:string}>
@@ -85,6 +92,45 @@ final class Module_Registry {
 	}
 
 	/**
+	 * Module map filtered to only the modules whose files are actually present
+	 * in this build. This lets us ship a leaner build (e.g. the WordPress.org
+	 * version without the file/code-editing tools) just by omitting files —
+	 * counts, categories and the dashboard all adjust automatically. Cached.
+	 *
+	 * @return array<string, class-string>
+	 */
+	public function classes() {
+		if ( null !== $this->resolved_classes ) {
+			return $this->resolved_classes;
+		}
+		$out = array();
+		foreach ( $this->class_map() as $id => $class ) {
+			if ( is_readable( $this->class_path( $class ) ) ) {
+				$out[ $id ] = $class;
+			}
+		}
+		$this->resolved_classes = $out;
+		return $out;
+	}
+
+	/**
+	 * Resolve the file path for a module class (mirrors the autoloader).
+	 *
+	 * @param string $class Fully-qualified class name.
+	 * @return string Absolute path.
+	 */
+	private function class_path( $class ) {
+		$relative = substr( $class, strlen( 'DiceStack\\' ) );
+		if ( strpos( $relative, 'Modules\\' ) === 0 ) {
+			$relative = substr( $relative, strlen( 'Modules\\' ) );
+			$base     = DICESTACK_PATH . 'modules/';
+		} else {
+			$base = DICESTACK_PATH . 'includes/';
+		}
+		return $base . str_replace( '\\', '/', $relative ) . '.php';
+	}
+
+	/**
 	 * Master module map: id => fully-qualified class name.
 	 *
 	 * This is the single source of truth for which modules ship. Add a line
@@ -92,7 +138,7 @@ final class Module_Registry {
 	 *
 	 * @return array<string, class-string>
 	 */
-	public function classes() {
+	private function class_map() {
 		return array(
 			// --- Security ---------------------------------------------------
 			'security_hardening'    => Modules\Security\Security_Hardening::class,
