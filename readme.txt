@@ -75,11 +75,9 @@ DiceStack is built and maintained by Dice Codes (https://dicecodes.com).
 == Screenshots ==
 
 1. The modular dashboard — every tool shows its memory, JavaScript, and database cost, and turns on or off with one click.
-2. Active tools list and category navigation in the sidebar.
-3. A single module's settings open in a full-screen panel.
-4. Recommended setup — DiceStack scans your site and enables the tools you actually need.
-5. Agency Mode — manage white-label, backups, reports, and updates for client sites in one place.
-6. Object cache — install a Redis or Memcached drop-in when your server supports it.
+2. Smart dependencies — WooCommerce tools stay dormant and clearly show "WooCommerce is not installed" with a one-click install link.
+3. The SEO category — Essential and Recommended tags, "replaces premium" notes, and a consent prompt for any tool that uses an external service.
+4. Admin & Developer tools — file manager, .htaccess editor, database search-replace, admin menu editor, and more.
 
 == Changelog ==
 

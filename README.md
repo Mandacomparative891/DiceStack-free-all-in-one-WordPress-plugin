@@ -51,10 +51,10 @@ Most WordPress sites run a dozen plugins — one for caching, one for security, 
 
 | | |
 |---|---|
-| ![DiceStack dashboard — 185 tools with live RAM, JS and DB cost shown per tool](.wordpress-org/screenshot-1.png) | ![Category view with one-click enable toggles and conflict warnings](.wordpress-org/screenshot-2.png) |
-| **The DiceStack dashboard** — every tool shows its exact RAM / JS / DB footprint *before* you enable it. | **Category view** — enable only what you need; overlapping plugins are flagged before you turn a tool on. |
-| ![Per-tool settings open in a modal — no page reloads](.wordpress-org/screenshot-3.png) | ![Recommended setup scans your site and enables the right essentials](.wordpress-org/screenshot-4.png) |
-| **In-place settings** — configure each tool in a modal, no hunting through menus. | **Recommended setup & Agency Mode** — scan the site and switch on the essentials in one click. |
+| ![DiceStack dashboard showing all 185 tools, each with its RAM, JS and DB cost](.wordpress-org/screenshot-1.png) | ![WooCommerce tools showing a clear "WooCommerce is not installed" message with an install link](.wordpress-org/screenshot-2.png) |
+| **The DiceStack dashboard** — every tool shows its exact RAM / JS / DB footprint *before* you enable it. | **Smart dependencies** — WooCommerce tools stay dormant and clearly say "WooCommerce is not installed", with a one-click install link. No dead ends. |
+| ![The SEO category with Essential and Recommended tags and external-service consent notes](.wordpress-org/screenshot-3.png) | ![The Admin and Developer category — file manager, htaccess editor, database search-replace and more](.wordpress-org/screenshot-4.png) |
+| **Clear, honest tools** — Essential / Recommended tags, "replaces premium plugin" notes, and an upfront consent prompt for any tool that uses an external service. | **Power tools built in** — file manager, .htaccess editor, database search-replace, admin menu editor and more. |
 
 ---
 
